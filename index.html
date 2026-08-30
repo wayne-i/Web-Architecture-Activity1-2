@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Activity 1: Web Architecture & Semantic HTML5</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        article {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        #multimedia,
+        #form-section {
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <header>
+        <h1 style="color: darkblue;">
+            Web Architecture & Semantic HTML5
+        </h1>
+
+        <p>
+            Activity 1 & 2: Web Architecture, Semantic HTML5 & CSS Integration
+        </p>
+    </header>
+
+    <nav>
+        <a href="#architecture">Architecture</a> |
+        <a href="#multimedia">Multimedia</a> |
+        <a href="#form-section">Form</a>
+    </nav>
+
+    <main>
+
+        <section id="architecture">
+
+            <h2>Web Architecture</h2>
+
+            <article>
+                <h3>Client-Server Model</h3>
+
+                <p>
+                    The client-server model is a system where a client,
+                    such as a web browser, sends a request to a server.
+                    The server processes the request and sends a response
+                    back to the client.
+                </p>
+            </article>
+
+            <article>
+                <h3>Domain Name System (DNS)</h3>
+
+                <p>
+                    DNS stands for Domain Name System. It translates
+                    domain names into IP addresses so that users can
+                    easily access websites without remembering numbers.
+                </p>
+            </article>
+
+            <article>
+                <h3>HTTP vs HTTPS</h3>
+
+                <p>
+                    HTTP is used to transfer information between a browser
+                    and a web server. HTTPS is more secure because it uses
+                    encryption to help protect information.
+                </p>
+            </article>
+
+        </section>
+
+
+        <section id="multimedia">
+
+            <h2>Multimedia</h2>
+
+            <h3>Audio</h3>
+
+            <p>
+                This is an example of an HTML5 audio element.
+            </p>
+
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            </audio>
+
+
+            <h3>Video</h3>
+
+            <p>
+                This is an example of an HTML5 video element.
+            </p>
+
+            <video controls width="500" style="border: 2px solid black;">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            </video>
+
+        </section>
+
+
+        <section id="form-section">
+
+            <h2>Protocol Selection Form</h2>
+
+            <form>
+
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+
+
+                <p>
+                    <label for="email">Email:</label><br>
+
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+
+                <p>
+                    <label for="protocol">Select Protocol:</label><br>
+
+                    <select id="protocol" name="protocol" required>
+                        <option value="">-- Select Protocol --</option>
+                        <option value="HTTP">HTTP</option>
+                        <option value="HTTPS">HTTPS</option>
+                        <option value="DNS">DNS</option>
+                    </select>
+                </p>
+
+
+                <button type="submit" style="background-color: darkblue; color: white;">
+                    Submit
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Activity 1 & 2 - Web Architecture & Semantic HTML5</p>
+    </footer>
+
+</body>
+
+</html>
